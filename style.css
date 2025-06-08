@@ -1,0 +1,214 @@
+hr{
+    border: 5px solid maroon;
+    border-radius: 5px;
+}
+body {
+    background-color: hsla(180, 100%, 50%, 0.795);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-weight: 900;
+}
+#logo{
+    width: auto;
+    height:auto;
+    text-align: center;
+    
+}
+#logo-description {
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 20px;
+}
+#menu {
+    color:blueviolet;
+    font-size: xx-large;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+#menu.visited{
+    color:red
+}
+#menu.hover {
+    text-decoration: underline;
+}
+#menu.active{
+    color: blue;
+}
+span.home{
+    margin:44px;
+}
+span.placeorder{
+    margin:44px;
+}
+span.aboutus
+{
+    margin: 44px;
+}
+span.contactus
+{
+    margin: 44px;
+}
+#intro {
+    text-align: center;
+    color: white;
+    background-color: green;
+    font-size: xx-large;
+    border: 20px;
+    border-color: blue;
+    font-weight: 900;
+    margin: 40px;
+    padding: 30px;
+    }
+#dealerin {
+    color: maroon;
+    text-align: left;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#page {
+    background-color: purple;
+    text-align: center;
+    border: 30px;
+    border-color: purple;
+    font-size: xx-large;
+    font-weight: 500;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wholesale{
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+#pineprices{
+    background-color: rgb(81, 255, 0);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+#cypressprices{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+#cementprices{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+#contact{
+    border: 60px;
+    background-color: blue;
+    text-align: left;
+    color: lavender;
+    width: 50%;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.no{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+    #location{
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    width: 50%;
+    font-size: xx-large;
+    float: right;
+}
+.nairobi{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    margin: 70px;
+    border-width: 80px;
+}
+.eastern{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+.stage{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+#article{
+    font-size: 40px;
+    background-color: purple;
+    color: aliceblue;
+    margin: 100px;
+    box-shadow: 27px;
+    width: 75%;
+    padding: 77px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
+#contactus{
+  width: 60%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid rgb(241, 227, 20); /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
+  background-color: purple;
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 700;
+}
+#message{
+    height: 200px;
+}
+button {
+    font-family: inherit;
+    font-size: 100%;
+    width: 50%;
+  }
+input, textarea, select, button {
+    width : 75%;
+    padding: 25px 12px;
+    margin: 55px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 4px; }
+    #contactusno {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: blue;
+    }
