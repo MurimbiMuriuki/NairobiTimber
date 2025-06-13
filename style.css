@@ -33,6 +33,12 @@ h1 {
     font-weight: 700;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    #menu {
+        font-size: 25px; /* Adjust font size for smaller screens */
+    }
+    
+}
 #menu.visited{
     color:red
 }
@@ -95,6 +101,13 @@ span.contactus
     margin-right: auto;
     height: 200px;
 }
+@media screen and (max-width: 600px) {
+    #wholesale {
+        font-size: 40px; /* Adjust font size for smaller screens */
+        height: 150px; /* Adjust height for smaller screens */
+    }
+    
+}
 #pineprices{
     background-color: rgb(81, 255, 0);
     text-align: center;
@@ -130,11 +143,24 @@ span.contactus
     display: inline-block;
     vertical-align: top;
 }
+@media screen and (max-width: 600px) {
+    #contact {
+        width: 50%; /* Adjust width for smaller screens */
+        font-size: 25px; /* Adjust font size for smaller screens */
+    }
+    
+}
 .no{
     font-size: 50px;
     text-align: center;
     color: white;
     font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+    .no {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+    
 }
     #location{
     text-align: center;
@@ -145,11 +171,10 @@ span.contactus
     float: right;
 }
 .nairobi{
-    color: white;
     text-align: center;
-    font-size: larger;
+    color: white;
+    font-size: 20px;
     font-weight: 600;
-    margin: 70px;
     border-width: 80px;
 }
 .eastern{
@@ -177,7 +202,7 @@ span.contactus
     padding-top: 1%;
 }
 #contactus{
-  width: 60%; /* Full width */
+  width: 50%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid rgb(241, 227, 20); /* Gray border */
   border-radius: 4px; /* Rounded borders */
