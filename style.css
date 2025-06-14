@@ -158,7 +158,7 @@ span.contactus
 }
 @media screen and (max-width: 600px) {
     .no {
-        font-size: 30px; /* Adjust font size for smaller screens */
+        font-size: 25px; /* Adjust font size for smaller screens */
     }
     
 }
@@ -216,6 +216,13 @@ span.contactus
   color: aliceblue;
   font-size: x-large;
   font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+    #contactus {
+        width: 90%; /* Adjust width for smaller screens */
+        font-size: medium; /* Adjust font size for smaller screens */
+    }
+    
 }
 #message{
     height: 200px;
